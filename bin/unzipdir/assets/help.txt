@@ -1,0 +1,3 @@
+How To Play
+Use your gesture to guide the falling blocks, left gesture will turn torus to left while right gesture will turn the torus to right. Clicking the ghost, and the falling block will fall more quickly. Clicking the falling block will rotate the block in clockwise direction.
+When a complete horizontal ring of 15 blocks is occupied by pieces the row will collapse and earn 10 points . If multiple rows are cleared at a time you will earn bonus points.

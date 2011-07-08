@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <TextView
+          android:id="@+id/welcome2"
+		  android:text="@string/torus_welcome"
+		  android:visibility="visible"
+          android:layout_width="wrap_content"
+          android:layout_height="80dp"
+          android:layout_centerInParent="true"
+          android:gravity="center_horizontal"
+          android:textColor="#88ffffff"
+          android:textSize="24sp"/> 
+        <Button android:text="Go" 
+			android:id="@+id/Go1" 
+			android:layout_width="wrap_content" 
+			android:layout_height="60dp"
+			android:layout_below="@id/welcome2">
+		</Button>
+		<Button android:text="Go" 
+			android:id="@+id/Go2" 
+			android:layout_width="wrap_content" 
+			android:layout_height="60dp"
+			android:layout_below="@id/welcome2"
+			android:layout_toRightOf="@id/Go1">
+		</Button>
+		<Button android:text="Go"
+			android:id="@+id/Go3"
+			android:layout_width="wrap_content" 
+			android:layout_height="60dp"
+			android:layout_below="@id/welcome2"
+			android:layout_toRightOf="@id/Go2">
+		</Button>
+     </RelativeLayout>
+</FrameLayout>

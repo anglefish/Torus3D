@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.reactor.games.torus.TorusView 
+    	android:id = "@+id/torus"
+    	android:layout_width = "match_parent"
+    	android:layout_height = "match_parent"/>
+    <Button android:text="pause" 
+		android:id="@+id/Pause" 
+		android:layout_width="wrap_content" 
+		android:layout_height="40dp"
+		android:layout_x = "280dp"
+		android:layout_y = "430dp">	
+	</Button>
+</FrameLayout>
