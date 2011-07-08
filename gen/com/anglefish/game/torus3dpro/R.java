@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3dpro;
 
 public final class R {
     public static final class attr {

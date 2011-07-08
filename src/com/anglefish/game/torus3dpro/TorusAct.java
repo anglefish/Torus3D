@@ -1,29 +1,20 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3dpro;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.view.KeyEvent;
-import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.FrameLayout;
 import com.facebook.android.ShareOnFacebook;
-import com.google.ads.*;
 
-import java.util.HashMap;
-import java.util.Map;
-
-public class TorusAct extends Activity implements AdListener {
+public class TorusAct extends Activity {
     /**
      * Called when the activity is first created.
      */
     private TorusView mTorusView;
     // public Twitter twitter;
     public ShareOnFacebook shareOnFacebook;
-
-    private AdView adView;
 
     //private int offset = 0;
 
@@ -39,34 +30,12 @@ public class TorusAct extends Activity implements AdListener {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        FrameLayout root = new FrameLayout(this);
-        root.setLayoutParams(new LayoutParams(LayoutParams.FILL_PARENT,
-                LayoutParams.FILL_PARENT));
-
         mTorusView = new TorusView(this, null);
-        root.addView(mTorusView);
 
-        adView = new AdView(this, AdSize.BANNER, "a14e16a52f18373");
-        adView.setAdListener(this);
-        AdRequest request = new AdRequest();
-        Map<String, Object> extras = new HashMap<String, Object>();
-        extras.put("color_bg", "1556a6");
-        extras.put("color_bg_top", "1556a6");
-        extras.put("color_border", "1556a6");
-        extras.put("color_link", "FFFFFF");
-        extras.put("color_text", "FFFFFF");
-        extras.put("color_url","FFFFFF");
-        request.setExtras(extras);
-//        DisplayMetrics dm = new DisplayMetrics();
-//        this.getWindowManager().getDefaultDisplay().getMetrics(dm);
-//        offset = (int) (50 * dm.density);
-        adView.loadAd(request);
-        root.addView(adView);
-
-        setContentView(root);
+        setContentView(mTorusView);
 
         Intent intent = this.getIntent();
-        int mode = intent.getIntExtra("com.anglefish.game.torus3d.Mode", 1);
+        int mode = intent.getIntExtra("com.anglefish.game.torus3dpro.Mode", 1);
         mTorusView.startGame(mode);
     }
 
@@ -90,9 +59,6 @@ public class TorusAct extends Activity implements AdListener {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        if (adView != null) {
-            adView.destroy();
-        }
     }
 
     // Facebook
@@ -132,29 +98,4 @@ public class TorusAct extends Activity implements AdListener {
       * .parse(requestToken.getAuthenticationURL()))); } catch (Exception e) {
       * e.printStackTrace(); } }
       */
-
-    @Override
-    public void onReceiveAd(Ad ad) {
-        mTorusView.setOffsetForAd(45);
-    }
-
-    @Override
-    public void onFailedToReceiveAd(Ad ad, AdRequest.ErrorCode errorCode) {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public void onPresentScreen(Ad ad) {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public void onDismissScreen(Ad ad) {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
-
-    @Override
-    public void onLeaveApplication(Ad ad) {
-        //To change body of implemented methods use File | Settings | File Templates.
-    }
 }

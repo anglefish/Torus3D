@@ -34,7 +34,7 @@ import android.webkit.WebViewClient;
 import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.anglefish.game.torus3d.R;
+import com.anglefish.game.torus3dpro.R;
 import com.facebook.android.Facebook.DialogListener;
 
 public class FbDialog extends Dialog {

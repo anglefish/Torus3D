@@ -53,7 +53,7 @@ public class ShareOnFacebook {
 			Bundle parameters = new Bundle();
 			String message = "I just got "
 					+ bestRecord
-					+ " in Tetris 3D. It is an amazing game. Come on and challenge my best record. https://market.android.com/details?id=com.anglefish.game.torus3d";
+					+ " in Tetris 3D. It is an amazing game. Come on and challenge my best record. https://market.android.com/details?id=com.anglefish.game.torus3dpro";
 			parameters.putString("message", message);
 			// parameters.putString("message", "this is a test");// the message
 			// to

@@ -8,7 +8,7 @@
 	<property name="platform.tools.dir" value="${PLATFORM8_HOME}/tools" />
 
 	<!-- 程序包名，请根据实际情况进行设置 -->
-	<property name="application-package" value="com.anglefish.game.torus3d" />
+	<property name="application-package" value="com.anglefish.game.torus3dpro" />
 
 	<!-- 设置输出目录。Eclipse用bin作为输出目录，这里与Eclipse保持统一-->
 	<property name="outdir" value="bin" />
