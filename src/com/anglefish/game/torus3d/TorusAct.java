@@ -3,13 +3,11 @@ package com.anglefish.game.torus3d;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.DisplayMetrics;
 import android.view.KeyEvent;
 import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
-import com.facebook.android.ShareOnFacebook;
 import com.google.ads.*;
 
 import java.util.HashMap;
@@ -21,7 +19,7 @@ public class TorusAct extends Activity implements AdListener {
      */
     private TorusView mTorusView;
     // public Twitter twitter;
-    public ShareOnFacebook shareOnFacebook;
+    // public ShareOnFacebook shareOnFacebook;
 
     private AdView adView;
 
@@ -55,7 +53,7 @@ public class TorusAct extends Activity implements AdListener {
         extras.put("color_border", "1556a6");
         extras.put("color_link", "FFFFFF");
         extras.put("color_text", "FFFFFF");
-        extras.put("color_url","FFFFFF");
+        extras.put("color_url", "FFFFFF");
         request.setExtras(extras);
 //        DisplayMetrics dm = new DisplayMetrics();
 //        this.getWindowManager().getDefaultDisplay().getMetrics(dm);
@@ -96,14 +94,14 @@ public class TorusAct extends Activity implements AdListener {
     }
 
     // Facebook
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (shareOnFacebook != null) {
-            shareOnFacebook.setBestRecord(mTorusView.getBestScore());
-            shareOnFacebook.getFb().authorizeCallback(requestCode, resultCode,
-                    data);
-        }
-    }
+//    @Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        if (shareOnFacebook != null) {
+//            shareOnFacebook.setBestRecord(mTorusView.getBestScore());
+//            shareOnFacebook.getFb().authorizeCallback(requestCode, resultCode,
+//                    data);
+//        }
+//    }
 
     // Twitter
     /*

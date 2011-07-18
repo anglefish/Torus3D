@@ -177,14 +177,20 @@ public class GoAct extends Activity /* implements AdListener */{
 					goGames(1);
 				} else if (y >= yPos + boxBmp.getHeight() + 2.0f * h
 						&& y <= yPos + 2.0f * (boxBmp.getHeight() + h)) {
-					goGames(2);
+					//goGames(2);
+                    fullVersion();
 				} else if (y >= yPos + 2.0f * boxBmp.getHeight() + 3.0f * h
 						&& y <= yPos + 4.0f * boxBmp.getHeight() + 3.0f * h) {
-					goGames(3);
+					//goGames(3);
+                    fullVersion();
 				}
 			}
 			return false;
 		}
+
+        private void fullVersion(){
+
+        }
 
 		@Override
 		public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX,

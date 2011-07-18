@@ -34,38 +34,38 @@ public class WelcomeAct extends Activity {
         setContentView(welcomeView);
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
+//    @Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//        super.onCreateOptionsMenu(menu);
+//
+//        menu.add(0, MENU_COPYRIGHT, 0, R.string.menu_copyright);
+//        menu.add(0, MENU_ABOUT, 0, R.string.menu_about);
+//        return true;
+//    }
 
-        menu.add(0, MENU_COPYRIGHT, 0, R.string.menu_copyright);
-        menu.add(0, MENU_ABOUT, 0, R.string.menu_about);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        LayoutInflater factory = LayoutInflater.from(this);
-        final View optionView;
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        switch (item.getItemId()) {
-            case MENU_COPYRIGHT:
-                optionView = factory.inflate(R.layout.copyright, null);
-                builder.setTitle(R.string.menu_copyright);
-                builder.setPositiveButton("OK", null);
-                builder.setView(optionView);
-                builder.show();
-                return true;
-            case MENU_ABOUT:
-                optionView = factory.inflate(R.layout.about_dlg, null);
-                builder.setTitle("About Tetris 3D");
-                builder.setPositiveButton("OK", null);
-                builder.setView(optionView);
-                builder.show();
-                return true;
-        }
-        return false;
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        LayoutInflater factory = LayoutInflater.from(this);
+//        final View optionView;
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        switch (item.getItemId()) {
+//            case MENU_COPYRIGHT:
+//                optionView = factory.inflate(R.layout.copyright, null);
+//                builder.setTitle(R.string.menu_copyright);
+//                builder.setPositiveButton("OK", null);
+//                builder.setView(optionView);
+//                builder.show();
+//                return true;
+//            case MENU_ABOUT:
+//                optionView = factory.inflate(R.layout.about_dlg, null);
+//                builder.setTitle("About Tetris 3D");
+//                builder.setPositiveButton("OK", null);
+//                builder.setView(optionView);
+//                builder.show();
+//                return true;
+//        }
+//        return false;
+//    }
 
     private void doPlay() {
         Intent startPlay = new Intent(this, GoAct.class);
@@ -150,11 +150,11 @@ public class WelcomeAct extends Activity {
             helpBmp = GlobalVars.scaleBitmap(context, R.drawable.help, 0.65f * WIDTH, 0.14f * HEIGHT);
 
             SharedPreferences sp = getSharedPreferences(
-                    "com.rector.game.torus_preferences",
+                    "com.anglefish.game.torus3d_preferences",
                     Context.MODE_PRIVATE);
             GlobalVars.HELP = sp.getBoolean("help", true);
             GlobalVars.KEYS = sp.getBoolean("keys", true);
-            GlobalVars.GHOST = sp.getBoolean("ghost", true);
+            GlobalVars.SOUND = sp.getBoolean("sound", true);
             //GlobalVars.KEYSPOS = sp.getBoolean("keys' position", true);
             //GlobalVars.SOUND = sp.getBoolean("sound", true);
         }

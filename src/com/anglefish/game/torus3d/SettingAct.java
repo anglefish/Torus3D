@@ -152,7 +152,7 @@ public class SettingAct extends Activity {
                 float xPos = LEFT + (WIDTH - boxBmp.getWidth()) * 0.5f;
                 float yPos = TOP + (HEIGHT - boxBmp.getHeight()) * 0.5f
                         + fontHeight;
-                canvas.drawText("Operation options", xPos + 10, yPos, paint);
+                canvas.drawText("Game Settings", xPos + 10, yPos, paint);
                 yPos = TOP + 0.5f * HEIGHT - boxBmp.getHeight() * 0.35f;
                 canvas.drawBitmap(tinyboxBmp, xPos + 15, yPos, paint);
                 canvas.drawBitmap(tinyboxBmp, xPos + 15, yPos + 0.15f * WIDTH,
@@ -174,7 +174,7 @@ public class SettingAct extends Activity {
                      * else { canvas.drawBitmap(deselectionBmp, xPos + 15, yPos +
                      * 0.15f * WIDTH, paint); }
                      */
-                if (GlobalVars.GHOST) {
+                if (GlobalVars.SOUND) {
                     canvas.drawBitmap(selectionBmp, xPos + 15, yPos + 0.3f
                             * WIDTH, paint);
                 }
@@ -185,11 +185,11 @@ public class SettingAct extends Activity {
                 paint.setFakeBoldText(false);
                 paint.setStrokeWidth(0);
                 fontHeight = (float) Math.ceil(fm.descent - fm.ascent);
-                canvas.drawText("help tips", xPos + 15 + WIDTH * 0.1f + 10,
+                canvas.drawText("Show Tips", xPos + 15 + WIDTH * 0.1f + 10,
                         yPos + fontHeight, paint);
-                canvas.drawText("keys", xPos + 15 + 0.1f * WIDTH + 10, yPos
+                canvas.drawText("Show Keypad", xPos + 15 + 0.1f * WIDTH + 10, yPos
                         + 0.15f * WIDTH + fontHeight, paint);
-                canvas.drawText("ghost", xPos + 15 + WIDTH * 0.1f + 10, yPos + fontHeight + 0.3f * WIDTH, paint);
+                canvas.drawText("Sound Effect", xPos + 15 + WIDTH * 0.1f + 10, yPos + fontHeight + 0.3f * WIDTH, paint);
                 /*
                      * float sFontHeight = fontHeight;
                      *
@@ -249,7 +249,7 @@ public class SettingAct extends Activity {
                     + 0.1f * WIDTH) {
                 GlobalVars.HELP = !GlobalVars.HELP;
                 SharedPreferences sp = getSharedPreferences(
-                        "com.rector.game.torus_preferences",
+                        "com.anglefish.game.torus3d_preferences",
                         Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putBoolean("help", GlobalVars.HELP);
@@ -266,7 +266,7 @@ public class SettingAct extends Activity {
                 GlobalVars.KEYS = !GlobalVars.KEYS;
                 // GlobalVars.KEYSPOS = true;
                 SharedPreferences sp = getSharedPreferences(
-                        "com.rector.game.torus_preferences",
+                        "com.anglefish.game.torus3d_preferences",
                         Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putBoolean("keys", GlobalVars.KEYS);
@@ -280,12 +280,12 @@ public class SettingAct extends Activity {
                     && x <= LEFT + 0.5f * WIDTH - 0.16f * boxBmp.getWidth()
                     && y >= TOP + 0.5f * HEIGHT - boxBmp.getHeight() * 0.35f + 0.3f * WIDTH
                     && y <= TOP + 0.5f * HEIGHT - boxBmp.getHeight() * 0.35f + 0.4f * WIDTH) {
-                GlobalVars.GHOST = !GlobalVars.GHOST;
+                GlobalVars.SOUND = !GlobalVars.SOUND;
                 SharedPreferences sp = getSharedPreferences(
-                        "com.rector.game.torus_preferences",
+                        "com.anglefish.game.torus3d_preferences",
                         Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
-                editor.putBoolean("ghost", GlobalVars.GHOST);
+                editor.putBoolean("sound", GlobalVars.SOUND);
                 // editor.putBoolean("keys' position", GlobalVars.KEYSPOS);
                 editor.commit();
                 drawFrame();

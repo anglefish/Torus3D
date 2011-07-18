@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<project name="Torus3D" default="zipalign">
+<project name="Torus3DClassic" default="zipalign">
     <property name="jdk.home" value="/Library/Java/Home"/>
 	<!-- Android SDK的位置，请根据实际情况进行设置 -->
 	<property name="SDK_HOME" value="/android-sdk-mac_x86" />
