@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.KeyEvent;
 import android.view.Window;
 import android.view.WindowManager;
-import com.facebook.android.ShareOnFacebook;
 
 public class TorusAct extends Activity {
     /**
@@ -14,7 +13,7 @@ public class TorusAct extends Activity {
      */
     private TorusView mTorusView;
     // public Twitter twitter;
-    public ShareOnFacebook shareOnFacebook;
+    // public ShareOnFacebook shareOnFacebook;
 
     //private int offset = 0;
 
@@ -62,14 +61,14 @@ public class TorusAct extends Activity {
     }
 
     // Facebook
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (shareOnFacebook != null) {
-            shareOnFacebook.setBestRecord(mTorusView.getBestScore());
-            shareOnFacebook.getFb().authorizeCallback(requestCode, resultCode,
-                    data);
-        }
-    }
+    //@Override
+//    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+//        if (shareOnFacebook != null) {
+//            shareOnFacebook.setBestRecord(mTorusView.getBestScore());
+//            shareOnFacebook.getFb().authorizeCallback(requestCode, resultCode,
+//                    data);
+//        }
+//    }
 
     // Twitter
     /*

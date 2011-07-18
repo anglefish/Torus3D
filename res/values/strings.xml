@@ -1,17 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Torus 3D</string>
-    <string name="Torus">Torus 3D</string>
-    <string name="torus_welcome">Welcome to Torus 3D</string>
-    <string name="menu_copyright">©Copyright</string>
-    <string name="menu_about">About</string>
-    <string name="link_text">
-    	<a href = "http://www.aoidev.com">http://www.aoidev.com</a>
-	</string>
-	<string name="tetris_copy">Tetris® is the trademark of Tetris Holding. 
-		Tetris 3D Game, Logo and Theme are designed by A.O.I Studio. All Rights Reserved. 
-	</string>
-	<string name="livewallpaper_name">Tetris 3D Live Wallpaper</string>
-	<string name="wallpaper_author">Reactor Lau</string>
-    <string name="wallpaper_desc">Show Tetris 3D</string>
+    <string name="app_name">Torus 3D Deluxe</string>
 </resources>

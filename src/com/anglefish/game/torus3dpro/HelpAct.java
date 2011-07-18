@@ -66,9 +66,7 @@ public class HelpAct extends Activity {
             holder.addCallback(this);
             backgroundBmp = BitmapFactory.decodeResource(context.getResources(), R.drawable.traditionalbackground);
 
-
-            DisplayMetrics dm = new DisplayMetrics();
-            dm = getApplicationContext().getResources().getDisplayMetrics();
+            DisplayMetrics dm = getApplicationContext().getResources().getDisplayMetrics();
             WIDTH = dm.widthPixels;
             HEIGHT = dm.heightPixels;
             boxBmp = GlobalVars.scaleBitmap(context, R.drawable.largebox, WIDTH * 0.82f, HEIGHT * 0.85f);
