@@ -567,7 +567,7 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
                     keysDown.left ? 1 : keysDown.right ? -1 : 0);
             if (GlobalVars.SOUND) {
                 try {
-                    MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), R.raw.rotate);
+                    MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), R.raw.clank);
                     mediaPlayer.start();
                 } catch (Exception e) {
                     e.printStackTrace();
@@ -597,7 +597,7 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
                     game.drawCylinder(canvas, paint, true, false, 0, null);//防止出现白屏
                     if (GlobalVars.SOUND) {
                         try {
-                            MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), R.raw.bounce);
+                            MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), R.raw.rotate);
                             mediaPlayer.start();
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -754,7 +754,7 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
         }
         if (GlobalVars.SOUND) {
             try {
-                MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), R.raw.rotate);
+                MediaPlayer mediaPlayer = MediaPlayer.create(getContext(), R.raw.bounce);
                 mediaPlayer.start();
             } catch (Exception e) {
                 e.printStackTrace();
