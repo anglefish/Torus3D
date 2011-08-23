@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 public class CubicMotion {
     int mDuration;

@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.content.Context;
@@ -95,7 +95,7 @@ public class HelpAct extends Activity {
             setLongClickable(true);
             holder = getHolder();
             holder.addCallback(this);
-            backgroundBmp = BitmapFactory.decodeResource(context.getResources(), R.drawable.traditionalbackground);
+            backgroundBmp = BitmapFactory.decodeResource(context.getResources(), R.drawable.garbagebackground);
 
 
             DisplayMetrics dm = new DisplayMetrics();

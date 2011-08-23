@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -64,7 +64,7 @@ public class TorusAct extends Activity implements AdListener {
         setContentView(root);
 
         Intent intent = this.getIntent();
-        int mode = intent.getIntExtra("com.anglefish.game.torus3d.Mode", 1);
+        int mode = intent.getIntExtra("com.anglefish.game.torus3d3.Mode", 1);
         mTorusView.startGame(mode);
     }
 

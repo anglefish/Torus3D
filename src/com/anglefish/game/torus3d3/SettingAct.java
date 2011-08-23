@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.content.Context;
@@ -103,7 +103,7 @@ public class SettingAct extends Activity {
             holder = getHolder();
             holder.addCallback(this);
             backgroundBmp = BitmapFactory.decodeResource(
-                    context.getResources(), R.drawable.traditionalbackground);
+                    context.getResources(), R.drawable.garbagebackground);
 
             DisplayMetrics dm = new DisplayMetrics();
             dm = getApplicationContext().getResources().getDisplayMetrics();
@@ -249,7 +249,7 @@ public class SettingAct extends Activity {
                     + 0.1f * WIDTH) {
                 GlobalVars.HELP = !GlobalVars.HELP;
                 SharedPreferences sp = getSharedPreferences(
-                        "com.anglefish.game.torus3d_preferences",
+                        "com.anglefish.game.torus3d3_preferences",
                         Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putBoolean("help", GlobalVars.HELP);
@@ -266,7 +266,7 @@ public class SettingAct extends Activity {
                 GlobalVars.KEYS = !GlobalVars.KEYS;
                 // GlobalVars.KEYSPOS = true;
                 SharedPreferences sp = getSharedPreferences(
-                        "com.anglefish.game.torus3d_preferences",
+                        "com.anglefish.game.torus3d3_preferences",
                         Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putBoolean("keys", GlobalVars.KEYS);
@@ -282,7 +282,7 @@ public class SettingAct extends Activity {
                     && y <= TOP + 0.5f * HEIGHT - boxBmp.getHeight() * 0.35f + 0.4f * WIDTH) {
                 GlobalVars.SOUND = !GlobalVars.SOUND;
                 SharedPreferences sp = getSharedPreferences(
-                        "com.anglefish.game.torus3d_preferences",
+                        "com.anglefish.game.torus3d3_preferences",
                         Context.MODE_PRIVATE);
                 SharedPreferences.Editor editor = sp.edit();
                 editor.putBoolean("sound", GlobalVars.SOUND);

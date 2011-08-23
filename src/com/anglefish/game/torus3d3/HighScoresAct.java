@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.content.Context;
@@ -103,7 +103,7 @@ public class HighScoresAct extends Activity {
             holder = getHolder();
             holder.addCallback(this);
             backgroundBmp = BitmapFactory.decodeResource(
-                    context.getResources(), R.drawable.traditionalbackground);
+                    context.getResources(), R.drawable.garbagebackground);
             DisplayMetrics dm = new DisplayMetrics();
             dm = getApplicationContext().getResources().getDisplayMetrics();
             WIDTH = dm.widthPixels;

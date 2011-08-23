@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.content.Context;
@@ -141,7 +141,7 @@ public class WelcomeAct extends Activity {
             dm = getApplicationContext().getResources().getDisplayMetrics();
             WIDTH = dm.widthPixels;
             HEIGHT = dm.heightPixels;
-            backgroundBmp = GlobalVars.scaleBitmap(context, R.drawable.traditionalbackground, WIDTH, HEIGHT);
+            backgroundBmp = GlobalVars.scaleBitmap(context, R.drawable.garbagebackground, WIDTH, HEIGHT);
             logoBmp = GlobalVars.scaleBitmap(context, R.drawable.logo, 0.7f * WIDTH, 0.3f * HEIGHT);
             playBmp = GlobalVars.scaleBitmap(context, R.drawable.play, 0.65f * WIDTH, 0.14f * HEIGHT);
             settingBmp = GlobalVars.scaleBitmap(context, R.drawable.settings, 0.65f * WIDTH, 0.14f * HEIGHT);
@@ -149,7 +149,7 @@ public class WelcomeAct extends Activity {
             helpBmp = GlobalVars.scaleBitmap(context, R.drawable.help, 0.65f * WIDTH, 0.14f * HEIGHT);
 
             SharedPreferences sp = getSharedPreferences(
-                    "com.anglefish.game.torus3d_preferences",
+                    "com.anglefish.game.torus3d3_preferences",
                     Context.MODE_PRIVATE);
             GlobalVars.HELP = sp.getBoolean("help", true);
             GlobalVars.KEYS = sp.getBoolean("keys", true);

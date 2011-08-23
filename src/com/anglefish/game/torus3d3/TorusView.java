@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -196,8 +196,8 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
         starting = true;
 //        switch (mode) {
 //            case 1:
-        titleBmp = GlobalVars.scaleBitmap(torusAct, R.drawable.traditional, WIDTH * 0.32f, HEIGHT * 0.03f);
-        backgroundBmp = GlobalVars.scaleBitmap(torusAct, R.drawable.traditionalbackground, WIDTH, HEIGHT);
+        titleBmp = GlobalVars.scaleBitmap(torusAct, R.drawable.garbage, WIDTH * 0.32f, HEIGHT * 0.03f);
+        backgroundBmp = GlobalVars.scaleBitmap(torusAct, R.drawable.garbagebackground, WIDTH, HEIGHT);
 //                break;
 //            case 2:
 //                titleBmp = GlobalVars.scaleBitmap(torusAct, R.drawable.timeattack, WIDTH * 0.32f, HEIGHT * 0.03f);
@@ -356,7 +356,7 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
                             } else if (boxId == 2) {
                                 tip = "Click the ghost piece to accelerate the falling block.";
                             } else {
-                                tip = "Turn the torus3d to left or right with your gesture.";
+                                tip = "Turn the torus3d3 to left or right with your gesture.";
                             }
                             boxPosY += 10;
                             GlobalVars.drawContent(tip, fontHeight, lineSpace, tipBoxBmp.getWidth() * 0.9f - 5 - tipBmp.getWidth() * 0.6f,
@@ -989,7 +989,7 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
     }
 
     void goWelcome() {
-        Intent intent = new Intent(torusAct, com.anglefish.game.torus3d.WelcomeAct.class);
+        Intent intent = new Intent(torusAct, com.anglefish.game.torus3d3.WelcomeAct.class);
         ;
         torusAct.startActivity(intent);
         ((Activity) torusAct).finish();
@@ -998,7 +998,7 @@ public class TorusView extends SurfaceView implements SurfaceHolder.Callback, On
     void help() {
         GlobalVars.HELP = false;
         SharedPreferences sp = torusAct.getSharedPreferences(
-                "com.anglefish.game.torus3d_preferences",
+                "com.anglefish.game.torus3d3_preferences",
                 Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = sp.edit();
         editor.putBoolean("help", false);

@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -35,7 +35,7 @@ public class GoAct extends Activity /* implements AdListener */ {
 
     void goGames(int mode) {
         Intent startGame = new Intent(this, TorusAct.class);
-        startGame.putExtra("com.anglefish.game.torus3d.Mode", mode);
+        startGame.putExtra("com.anglefish.game.torus3d3.Mode", mode);
         this.startActivity(startGame);
         this.finish();
     }
@@ -82,7 +82,7 @@ public class GoAct extends Activity /* implements AdListener */ {
             HEIGHT = dm.heightPixels;
 
             backgroundBmp = BitmapFactory.decodeResource(
-                    context.getResources(), R.drawable.traditionalbackground);
+                    context.getResources(), R.drawable.garbagebackground);
             logoBmp = GlobalVars.scaleBitmap(context, R.drawable.logo,
                     0.7f * WIDTH, 0.3f * HEIGHT);
             boxBmp = GlobalVars.scaleBitmap(context, R.drawable.bigbox,
@@ -119,9 +119,9 @@ public class GoAct extends Activity /* implements AdListener */ {
                 float hL = boxBmp.getHeight() / 9.0f;
                 yPos += h;
                 canvas.drawBitmap(boxBmp, xPos, yPos, paint);
-                canvas.drawBitmap(gotraditionalBmp, xPos + hL, yPos + hL, paint);
-                canvas.drawBitmap(traditionaltitleBmp, xPos + hL
-                        + gotraditionalBmp.getWidth(), yPos + hL, paint);
+                canvas.drawBitmap(gogarbageBmp, xPos + hL, yPos + hL, paint);
+                canvas.drawBitmap(garbagetitleBmp, xPos + hL
+                        + gogarbageBmp.getWidth(), yPos + hL, paint);
                 String content = GlobalVars.getHelpContent("traditional.txt",
                         GoAct.this);
                 paint.setTextSize(12);
@@ -151,8 +151,8 @@ public class GoAct extends Activity /* implements AdListener */ {
 
                 yPos += boxBmp.getHeight() + h;
                 canvas.drawBitmap(boxBmp, xPos, yPos, paint);
-                canvas.drawBitmap(gogarbageBmp, xPos + hL, yPos + hL, paint);
-                canvas.drawBitmap(garbagetitleBmp,
+                canvas.drawBitmap(gotraditionalBmp, xPos + hL, yPos + hL, paint);
+                canvas.drawBitmap(traditionaltitleBmp,
                         xPos + hL + gotraditionalBmp.getWidth(), yPos + hL,
                         paint);
                 content = GlobalVars.getHelpContent("garbage.txt", GoAct.this);
@@ -179,7 +179,7 @@ public class GoAct extends Activity /* implements AdListener */ {
             if (x >= (WIDTH - boxBmp.getWidth()) / 2.0f
                     && x <= WIDTH + boxBmp.getWidth() / 2.0f) {
                 if (y >= yPos + h && y <= yPos + h + boxBmp.getHeight()) {
-                    goGames(1);
+                    goGames(3);
                 } else if (y >= yPos + boxBmp.getHeight() + 2.0f * h
                         && y <= yPos + 2.0f * (boxBmp.getHeight() + h)) {
                     //goGames(2);

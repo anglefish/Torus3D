@@ -2,7 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3a197f-ee30-4e6b-a90d-f5f039343b85" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/garbagebackground.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/anglefish/game/torus3d3/R.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-zh/strings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Best.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/CubicMotion.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game$BlockData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game$Coord.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game$Coords.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/GlobalVars.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/GoAct$GoView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/GoAct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HelpAct$HelpView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HelpAct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HighScoresAct$HighScoresView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HighScoresAct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$attr.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$drawable.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$raw.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$string.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/SettingAct$SettingView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/SettingAct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/TorusAct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/TorusView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/WelcomeAct$WelcomeView.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/WelcomeAct.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/a.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/b.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/c.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/d.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/e.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/f.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/g.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/h.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/i.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/j.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/k.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/anglefish/game/torus3d/R.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/traditionalbackground.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/Best.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Best.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/CubicMotion.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/CubicMotion.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/Game.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Game.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/GlobalVars.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GlobalVars.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/GoAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GoAct.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/HelpAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HelpAct.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/HighScoresAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HighScoresAct.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/SettingAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/SettingAct.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/TorusAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusAct.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/TorusView.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusView.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/WelcomeAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/WelcomeAct.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes.dex" afterPath="$PROJECT_DIR$/bin/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Torus3DClassic.iml" afterPath="$PROJECT_DIR$/Torus3DClassic.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-fr/strings.xml" afterPath="$PROJECT_DIR$/res/values-fr/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-ja/strings.xml" afterPath="$PROJECT_DIR$/res/values-ja/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-ko/strings.xml" afterPath="$PROJECT_DIR$/res/values-ko/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
     </list>
     <ignored path="github.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,19 +131,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="build.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.xml">
+      <file leaf-file-name="TorusView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="27" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0">
+            <state line="192" column="57" selection-start="7374" selection-end="7374" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="69" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
+            <state line="18" column="34" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-fr/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +161,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -102,16 +170,52 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values-ko/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values-zh/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/values-fr/strings.xml">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="2" column="70" selection-start="178" selection-end="178" vertical-scroll-proportion="0.026642984">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Game.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Game.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="34" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CubicMotion.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/CubicMotion.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Best.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Best.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -133,6 +237,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3dpro/TorusView.java" />
         <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/WelcomeAct.java" />
+        <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/SettingAct.java" />
+        <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HighScoresAct.java" />
+        <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HelpAct.java" />
+        <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GoAct.java" />
+        <option value="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusView.java" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-fr/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-ja/strings.xml" />
+        <option value="$PROJECT_DIR$/res/values-ko/strings.xml" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
@@ -170,13 +284,10 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane />
       </pane>
-      <pane id="Favorites">
-        <subPane subId="github" />
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -195,13 +306,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Torus3D" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="Favorites">
+        <subPane subId="github" />
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="preferences.sourceCode.JavaDoc" />
@@ -217,10 +345,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/values-zh" />
+      <recent name="$PROJECT_DIR$/res/drawable" />
       <recent name="$PROJECT_DIR$/res/values-fr" />
       <recent name="$PROJECT_DIR$/res/values-ko" />
       <recent name="$PROJECT_DIR$/res/values-ja" />
-      <recent name="$PROJECT_DIR$/res/raw" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.Github">
@@ -370,7 +499,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="705" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -381,14 +510,14 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981315" sideWeight="0.67156863" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32981315" sideWeight="0.67156863" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Android Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -451,29 +580,94 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusAct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="1171" selection-end="1171" vertical-scroll-proportion="0.0" />
+        <state line="15" column="13" selection-start="384" selection-end="384" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/SettingAct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="69" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" />
+        <state line="105" column="72" selection-start="3455" selection-end="3455" vertical-scroll-proportion="-6.6923075" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HighScoresAct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="105" column="72" selection-start="3484" selection-end="3484" vertical-scroll-proportion="-6.8846154" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/values-ko/strings.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HelpAct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="97" column="109" selection-start="3205" selection-end="3205" vertical-scroll-proportion="-6.6923075" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GoAct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="29" selection-start="7947" selection-end="7947" vertical-scroll-proportion="-8.653846" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GlobalVars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="-1.3076923" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="57" selection-start="7374" selection-end="7374" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="34" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-fr/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-ko/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values-zh/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="34" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/CubicMotion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Best.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="70" selection-start="178" selection-end="178" vertical-scroll-proportion="0.026642984">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -528,12 +722,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Github</last-edited>
+          <last-edited>Torus3DClassic</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

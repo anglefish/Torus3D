@@ -1,4 +1,4 @@
-package com.anglefish.game.torus3d;
+package com.anglefish.game.torus3d3;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -11,9 +11,9 @@ public class GlobalVars {
     public final static String[] highScoreFiles = {"traditional.txt",
             "time.txt",
             "garbage.txt"};
-    public final static String TORUSDIR = "/torus3d";
+    public final static String TORUSDIR = "/torus3d3";
     public final static String SDCARD = "/sdcard";
-    public final static String DATADIR = "../data/data/com.anglefish.game.torus3d";
+    public final static String DATADIR = "../data/data/com.anglefish.game.torus3d3";
     public static boolean HELP = true;
     public static boolean KEYS = true;
     //public static boolean GHOST = true;
