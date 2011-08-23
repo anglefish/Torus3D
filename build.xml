@@ -299,7 +299,7 @@
     </target>
 
     <!--进行签名-->
-    <target name="sign" depends="package-so">
+    <target name="sign" depends="release">
         <exec executable="${jarsigner}" failonerror="true">
             <arg value="-verbose"/>
             <arg value="-storepass"/>

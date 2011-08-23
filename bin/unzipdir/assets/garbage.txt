@@ -1,1 +1,0 @@
-Clear the screen to only 3 lines of blocks as fast as possible.
