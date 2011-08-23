@@ -1,68 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe3a197f-ee30-4e6b-a90d-f5f039343b85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/garbagebackground.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gen/com/anglefish/game/torus3d3/R.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values-zh/strings.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Best.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/CubicMotion.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game$BlockData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game$Coord.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game$Coords.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/Game.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/GlobalVars.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/GoAct$GoView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/GoAct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HelpAct$HelpView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HelpAct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HighScoresAct$HighScoresView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/HighScoresAct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$attr.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$drawable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$raw.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R$string.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/R.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/SettingAct$SettingView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/SettingAct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/TorusAct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/TorusView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/WelcomeAct$WelcomeView.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/WelcomeAct.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/a.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/b.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/c.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/d.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/e.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/f.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/g.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/h.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/i.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/j.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/classes/com/anglefish/game/torus3d/k.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/anglefish/game/torus3d/R.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/traditionalbackground.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/Best.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Best.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/CubicMotion.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/CubicMotion.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/Game.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/Game.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/GlobalVars.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GlobalVars.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/GoAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/GoAct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/HelpAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HelpAct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/HighScoresAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/HighScoresAct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/SettingAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/SettingAct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/TorusAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusAct.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/TorusView.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/TorusView.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/anglefish/game/torus3d/WelcomeAct.java" afterPath="$PROJECT_DIR$/src/com/anglefish/game/torus3d3/WelcomeAct.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes.dex" afterPath="$PROJECT_DIR$/bin/classes.dex" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Torus3DClassic.iml" afterPath="$PROJECT_DIR$/Torus3DClassic.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-fr/strings.xml" afterPath="$PROJECT_DIR$/res/values-fr/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-ja/strings.xml" afterPath="$PROJECT_DIR$/res/values-ja/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values-ko/strings.xml" afterPath="$PROJECT_DIR$/res/values-ko/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-    </list>
+    <list default="true" id="fe3a197f-ee30-4e6b-a90d-f5f039343b85" name="Default" comment="" />
     <ignored path="github.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/modules.xml" />
@@ -506,6 +445,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.67156863" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -517,7 +457,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -547,7 +486,7 @@
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="add IntelliJ Idea Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="garbage mode" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -562,6 +501,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="add sound" />
     <MESSAGE value="add IntelliJ Idea Project" />
+    <MESSAGE value="garbage mode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
