@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe3a197f-ee30-4e6b-a90d-f5f039343b85" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3DGarbage-signed.apk" afterPath="$PROJECT_DIR$/bin/Torus3DGarbage-signed.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3DGarbage-unsigned.apk" afterPath="$PROJECT_DIR$/bin/Torus3DGarbage-unsigned.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3DGarbage.ap_" afterPath="$PROJECT_DIR$/bin/Torus3DGarbage.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3DGarbage_release.apk" afterPath="$PROJECT_DIR$/bin/Torus3DGarbage_release.apk" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-    </list>
+    <list default="true" id="fe3a197f-ee30-4e6b-a90d-f5f039343b85" name="Default" comment="" />
     <ignored path="github.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/modules.xml" />
@@ -89,7 +82,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="34" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+            <state line="18" column="34" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +91,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values-fr/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +100,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +109,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values-ko/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -230,12 +223,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites">
-        <subPane subId="github" />
-      </pane>
-      <pane id="PackagesPane">
-        <subPane />
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -254,7 +241,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="github" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Torus3D" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="torus3d3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane />
+      </pane>
+      <pane id="Favorites">
+        <subPane subId="github" />
       </pane>
       <pane id="Scope" />
     </panes>
@@ -272,8 +283,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -550,28 +561,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="34" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+        <state line="18" column="34" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-fr/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-ja/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values-ko/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="693" selection-end="693" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
