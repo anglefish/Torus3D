@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe3a197f-ee30-4e6b-a90d-f5f039343b85" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3D-signed.apk" afterPath="$PROJECT_DIR$/bin/Torus3D-signed.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3D-unsigned.apk" afterPath="$PROJECT_DIR$/bin/Torus3D-unsigned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3D.ap_" afterPath="$PROJECT_DIR$/bin/Torus3D.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/Torus3D_release.apk" afterPath="$PROJECT_DIR$/bin/Torus3D_release.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/bin/classes/META-INF/MANIFEST.MF" />
     </list>
     <ignored path="github.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -197,8 +203,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Favorites" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -248,6 +252,8 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Favorites" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -263,8 +269,8 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
